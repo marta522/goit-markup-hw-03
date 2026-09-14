@@ -1,6 +1,8 @@
 .portfolio {
 }
 .portfolio-title {
+  margin-bottom: 72px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -8,6 +10,10 @@
   color: #2e2f42;
 }
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .portfolio-item {
 }
@@ -18,4 +24,11 @@
 }
 .portfolio-text {
   font-weight: 400;
+}
+
+.project-card {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
 }
